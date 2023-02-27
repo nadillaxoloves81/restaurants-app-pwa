@@ -14,7 +14,6 @@ const createHeroHomeTemplate = () => `
     <div class="hero">
         <picture class="hero__img">
             <source media="(max-width: 600px)" srcset="./images/hero/hero-image-small.jpg">
-            <source media="(min-width: 601px)" srcset="./images/hero/hero-image-large.jpg">
             <img src="./images/hero/hero-image.jpg" alt="restaurant hero image">
         </picture>
         <div class="hero__content">

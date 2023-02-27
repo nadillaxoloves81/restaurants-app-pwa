@@ -14,7 +14,7 @@ class RestaurantItem extends HTMLElement {
                 </div>
 
                 <div class="restaurants__img">
-                    <img class="lazyload" data-src="${CONFIG.BASE_IMAGE_URL_SMALL + this._restaurant.pictureId}" alt="${this._restaurant.name || '-'} src="./images/placeholder_img.jpg" Restaurant Picture">
+                    <img class="lazyload" data-src="${CONFIG.BASE_IMAGE_URL_SMALL + this._restaurant.pictureId}" alt="${this._restaurant.name || '-'}  Restaurant Picture" src="./images/placeholder_img.jpg">
                 </div>
                 
                 <div class="restaurants__content">
