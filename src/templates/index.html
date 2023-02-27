@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Foodies Apps 2023">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>FoodiesApps</title>
+    <link rel="icon" href="./images/pizza.png">
+    <link rel="manifest" href="./app.webmanifest">
+    <meta name="theme-color" content="#32b768" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <a href="#maincontent" class="skip-link">skip to content</a>
+    <header class="header">
+        <div class="header__icons">
+            <button class="fa fa-bars" id="menuBtn" aria-label="menu"></button>
+        </div>
+
+        <a href="#" class="header__logo">
+            <i class="fa fa-cutlery"></i> Foodies!
+        </a>
+
+        <nav class="header__navbar" id="navigationDrawer">
+            <a href="#/home">home</a>
+            <a href="#/favourites">favourites</a>
+            <a href="https://www.linkedin.com/in/nadilla-syihaq-583582183/" rel="noopener" target="_blank">about us</a>
+        </nav>
+    </header>
+
+    <main tabindex="0" id="mainContent"></main>
+    <page-loader></page-loader>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer__item">
+                <a href="#" class="header__logo">
+                    <i class="fa fa-cutlery"></i> Foodies!
+                </a>
+                <p><i class="fa fa-map-marker"></i> padang, west sumatra, indonesia</p>
+                <div class="footer__share">
+                    <a href="#" class="fa fa-facebook-f" aria-label="facebook"></a>
+                    <a href="#" class="fa fa-twitter" aria-label="twitter"></a>
+                    <a href="#" class="fa fa-instagram" aria-label="instagram"></a>
+                    <a href="#" class="fa fa-linkedin" aria-label="linkedin"></a>
+                </div>
+            </div>
+
+            <div class="footer__item">
+                <h3>helpful links</h3>
+                <a href="#" class="footer__links"><i class="fa fa-arrow-right"></i> service</a>
+                <a href="#" class="footer__links"><i class="fa fa-arrow-right"></i> support</a>
+                <a href="#" class="footer__links"><i class="fa fa-arrow-right"></i> term & condition</a>
+                <a href="#" class="footer__links"><i class="fa fa-arrow-right"></i> privacy</a>
+            </div>
+
+            <div class="footer__item">
+                <h3>join us</h3>
+                <p tabindex="0">subscribe for latest update</p>
+                <input type="email" placeholder="Enter your email" class="footer__email">
+                <input type="submit" value="subscribe" class="btn">
+            </div>
+        </div>
+
+        <div class="footer__credit"> Copyright © 2023 | <span>Foodies Apps</span></div>
+    </footer>
+</body>
+
+</html>

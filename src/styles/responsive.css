@@ -1,0 +1,85 @@
+/* responsive */
+@media screen and (min-width: 1200px) {
+    .hero {
+        margin: auto;
+        min-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    #menuBtn {
+        display: inline-block;
+    }
+
+    .heading {
+        font-size: 1.3rem;
+        width: 30rem;
+    }
+
+    .header__navbar {
+        position: absolute;
+        top: 100%;
+        left: -110%;
+        width: 25rem;
+        background: #fff;
+    }
+
+    .header__navbar.active {
+        left: 0;
+        transition: .4s linear;
+    }
+
+    .header__navbar a {
+        display: block;
+        border-bottom: var(--border);
+    }
+
+    .reviews__user {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        font-size: 1.2rem;
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .searchContainer {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 2.7rem;
+    }
+
+    .hero__description {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .reviews__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header {
+        gap: 1.5rem;
+        padding: 1rem 5%;
+    }
+
+    .footer__email {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .hero__title {
+        font-size: 2.5rem;
+    }
+}
